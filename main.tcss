@@ -1,0 +1,82 @@
+Authorization_screen {
+    align: center middle;
+}
+
+#auth_button {
+    border: tall $background;
+}
+
+Message {
+    margin: 0 0 1 1;
+    padding: 0 0 0 1;
+    height: auto;
+    background: $boost;
+}
+
+User {
+    margin: 1;
+}
+
+#user_field {
+    text-style: italic bold;
+}
+
+Static {
+    height: auto;
+    text-align: left;
+}
+
+#date_field {
+    text-style: italic bold;
+}
+
+#dialog_auth {
+    width: 70;
+    height: 22;
+
+    margin: 2 8;
+
+    background: $panel;
+    color: $text;
+    border: tall $background;
+
+    align: center middle;
+}
+
+#auth_button {
+    margin: 1 2;
+    align: center bottom;
+    width: 100%;
+}
+
+#auth_label {
+    margin: 1 5;
+    width: 100%;
+    text-style: bold;
+    content-align: center middle;
+    text-align: center;
+    dock: top
+}
+
+.auth_input {
+    margin: 2;
+    width: 100%;
+    text-style: bold;
+    content-align: center middle;
+}
+
+#user_container{
+    margin: 1 1 0 2;
+    background: $boost;
+    border: vkey $background;
+}
+
+#message_container{
+    margin: 1 0 0 0;
+    background: $boost;
+    border: vkey $background;
+}
+
+#input_message {
+    margin: 1;
+}
